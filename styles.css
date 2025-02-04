@@ -4,7 +4,7 @@
     padding: 0;
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
-    border: solid lightgray;
+    /* ß */;
 }
 
 .header,
@@ -82,7 +82,7 @@
     background-color: #3882f6;
     border: none;
     padding: 5px 25px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .hero-image {
@@ -177,4 +177,44 @@
     text-align: right;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* CALL TO ACTION */
+.call-to {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-text {
+    width: 50%;
+}
+
+.call-to-description {
+    color: #e5e7eb;
+}
+
+.call-to-button {
+    width: 25%;
+    text-align: center;
+}
+
+.call-to-button button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 20px;
+    padding: 5px 25px;
+    border-radius: 5px;
 }
