@@ -2,5 +2,4 @@
 
 Landing Page project from The Odin Project course
 
-## 1/26/2025
-- Create repository and initial file structure
+This project utilizes HTML, CSS and Git.
